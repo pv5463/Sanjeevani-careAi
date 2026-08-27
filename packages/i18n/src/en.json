@@ -1,0 +1,84 @@
+{
+  "buttons": {
+    "START": "Start",
+    "HELP": "Help",
+    "LANGUAGE": "Language",
+    "BACK": "Back",
+    "NEXT": "Next",
+    "SUBMIT": "Submit",
+    "CONFIRM": "Confirm",
+    "CANCEL": "Cancel",
+    "YES": "Yes",
+    "NO": "No",
+    "RETRY": "Retry",
+    "UPLOAD": "Upload",
+    "TAKE_PHOTO": "Take Photo",
+    "DELETE": "Delete",
+    "EDIT": "Edit",
+    "SAVE": "Save",
+    "VERIFY": "Verify",
+    "REJECT": "Reject"
+  },
+  "navigation": {
+    "HOME": "Home",
+    "HISTORY": "History",
+    "PROFILE": "Profile",
+    "SETTINGS": "Settings",
+    "LOGOUT": "Logout"
+  },
+  "screens": {
+    "WELCOME": "Welcome to Sanjeevani CareAI",
+    "LANGUAGE_SELECT": "Select Your Language",
+    "IDENTITY": "Patient Verification",
+    "CONSENT": "Patient Consent",
+    "CHIEF_COMPLAINT": "What brings you here today?",
+    "HISTORY": "Medical History",
+    "PAIN_MAP": "Pain Map",
+    "AYUSH": "AYUSH Assessment",
+    "DOCUMENTS": "Upload Documents",
+    "REVIEW": "Review Information",
+    "COMPLETE": "Consultation Ready"
+  },
+  "questions": {
+    "TELL_ME_MORE": "Please tell me more about your symptoms.",
+    "HOW_LONG": "How long have you been experiencing this?",
+    "ANY_MEDICATION": "Are you currently taking any medication?",
+    "ALLERGIES": "Do you have any allergies?"
+  },
+  "errors": {
+    "MICROPHONE_UNAVAILABLE": "Microphone is unavailable. Please check permissions.",
+    "CAMERA_UNAVAILABLE": "Camera is unavailable. Please check permissions.",
+    "OCR_FAILED": "Failed to read the document. Please try again.",
+    "NETWORK_UNAVAILABLE": "Network error. Please check your connection.",
+    "AI_TIMEOUT": "The AI service is taking too long to respond.",
+    "FILE_TOO_LARGE": "The uploaded file is too large.",
+    "INVALID_DOCUMENT": "Invalid document format.",
+    "SESSION_EXPIRED": "Your session has expired. Please start again."
+  },
+  "messages": {
+    "CONFIRMATION": "Are you sure you want to proceed?"
+  },
+  "loading": {
+    "PREPARING_CONSULTATION": "Preparing your consultation...",
+    "UNDERSTANDING_RESPONSE": "Understanding your response...",
+    "READING_DOCUMENT": "Reading document...",
+    "BUILDING_TIMELINE": "Building medical timeline...",
+    "PREPARING_SUMMARY": "Preparing physician summary..."
+  },
+  "voice": {
+    "LISTENING": "Listening...",
+    "PROCESSING": "Processing...",
+    "UNDERSTANDING": "Understanding...",
+    "CONFIRMATION_PREFIX": "Did you mean:"
+  },
+  "dashboard": {
+    "TITLE": "Doctor Dashboard",
+    "PATIENT_QUEUE": "Patient Queue",
+    "RECENT_ALERTS": "Recent Alerts",
+    "PATIENT_SUMMARY": "Patient Summary"
+  },
+  "legal": {
+    "DISCLAIMER": "This is an AI-assisted screening tool, not a substitute for professional medical advice.",
+    "CONSENT_TEXT": "I consent to the collection and processing of my medical information by Sanjeevani CareAI to assist healthcare professionals in my treatment."
+  }
+}

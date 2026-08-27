@@ -1,0 +1,27 @@
+{
+  "name": "sanjeevani-careai",
+  "version": "1.0.0",
+  "private": true,
+  "description": "SANJEEVANI CareAI — AI-Powered Clinical Intake & Patient Case-Taking Platform",
+  "scripts": {
+    "dev": "turbo run dev",
+    "build": "turbo run build",
+    "lint": "turbo run lint",
+    "test": "turbo run test",
+    "dev:web": "turbo run dev --filter=web",
+    "dev:api": "turbo run dev --filter=api",
+    "db:seed": "node infra/scripts/seed.js",
+    "clean": "turbo run clean"
+  },
+  "devDependencies": {
+    "eslint": "^9.28.0",
+    "prettier": "^3.5.3",
+    "turbo": "^2.10.12",
+    "typescript": "^5.8.3"
+  },
+  "engines": {
+    "node": ">=20.0.0",
+    "pnpm": ">=9.0.0"
+  },
+  "packageManager": "pnpm@11.24.0"
+}
