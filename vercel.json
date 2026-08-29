@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "buildCommand": "turbo build --filter=web",
-  "installCommand": "pnpm install --no-frozen-lockfile",
+  "buildCommand": "cd apps/web && npm install && npm run build",
+  "install Command": "npm install",
   "framework": null,
   "outputDirectory": "apps/web/.next"
 }

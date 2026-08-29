@@ -1,0 +1,7 @@
+{
+  "version": 2,
+  "buildCommand": "npm install -g turbo && npm install && turbo build --filter=web",
+  "installCommand": "npm install --legacy-peer-deps",
+  "framework": null,
+  "outputDirectory": "apps/web/.next"
+}

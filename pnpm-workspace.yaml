@@ -4,6 +4,7 @@ packages:
   - "services/*"
 allowBuilds:
   '@parcel/watcher': true
+  '@scarf/scarf': true
   '@swc/core': true
   argon2: true
   tesseract.js: true

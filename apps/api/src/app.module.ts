@@ -13,14 +13,14 @@ import { ClinicalAnswersModule } from './modules/clinical-answers/clinical-answe
 import { DocumentsModule } from './modules/documents/documents.module';
 import { OcrModule } from './modules/ocr/ocr.module';
 import { MedicalTimelineModule } from './modules/medical-timeline/medical-timeline.module';
-import { AlertsModule } from './modules/alerts/alerts.module';
-import { SummariesModule } from './modules/summaries/summaries.module';
-import { DoctorsModule } from './modules/doctors/doctors.module';
-import { DepartmentsModule } from './modules/departments/departments.module';
-import { AyushModule } from './modules/ayush/ayush.module';
-import { AuditModule } from './modules/audit/audit.module';
-import { AdminModule } from './modules/admin/admin.module';
-import { FhirModule } from './modules/fhir/fhir.module';
+// import { AlertsModule } from './modules/alerts/alerts.module';
+// import { SummariesModule } from './modules/summaries/summaries.module';
+// import { DoctorsModule } from './modules/doctors/doctors.module';
+// import { DepartmentsModule } from './modules/departments/departments.module';
+// import { AyushModule } from './modules/ayush/ayush.module';
+// import { AuditModule } from './modules/audit/audit.module';
+// import { AdminModule } from './modules/admin/admin.module';
+// import { FhirModule } from './modules/fhir/fhir.module';
 import { EventsModule } from './gateways/events.module';
 
 @Module({
@@ -44,14 +44,14 @@ import { EventsModule } from './gateways/events.module';
     DocumentsModule,
     OcrModule,
     MedicalTimelineModule,
-    AlertsModule,
-    SummariesModule,
-    DoctorsModule,
-    DepartmentsModule,
-    AyushModule,
-    AuditModule,
-    AdminModule,
-    FhirModule,
+    // AlertsModule,
+    // SummariesModule,
+    // DoctorsModule,
+    // DepartmentsModule,
+    // AyushModule,
+    // AuditModule,
+    // AdminModule,
+    // FhirModule,
     EventsModule,
   ],
 })

@@ -3,7 +3,7 @@ import { AuthGuard } from '@nestjs/passport';
 import { AuthService } from './auth.service';
 import { Public } from '../../common/decorators/public.decorator';
 import { RefreshJwtGuard } from '../../common/guards/refresh-jwt.guard';
-import { Response } from 'express';
+import type { Response } from 'express';
 
 @Controller('auth')
 export class AuthController {

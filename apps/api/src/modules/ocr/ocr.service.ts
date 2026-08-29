@@ -2,7 +2,7 @@ import { Injectable, Logger } from '@nestjs/common';
 import { InjectModel } from '@nestjs/mongoose';
 import { Model } from 'mongoose';
 import { createWorker } from 'tesseract.js';
-import * as sharp from 'sharp';
+import sharp from 'sharp';
 
 @Injectable()
 export class OcrService {

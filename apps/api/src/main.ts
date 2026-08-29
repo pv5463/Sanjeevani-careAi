@@ -1,8 +1,8 @@
 import { NestFactory } from '@nestjs/core';
 import { ValidationPipe } from '@nestjs/common';
 import { ConfigService } from '@nestjs/config';
-import { DocumentBuilder, SwaggerModule } from '@nestjs/swagger';
-import * as helmet from 'helmet';
+// import { DocumentBuilder, SwaggerModule } from '@nestjs/swagger';
+import helmet from 'helmet';
 import * as cookieParser from 'cookie-parser';
 import { AppModule } from './app.module';
 import { HttpExceptionFilter } from './common/filters/http-exception.filter';
@@ -33,14 +33,15 @@ async function bootstrap() {
   app.useGlobalInterceptors(new ResponseInterceptor());
   app.setGlobalPrefix('api/v1');
 
-  const swaggerConfig = new DocumentBuilder()
-    .setTitle('SANJEEVANI CareAI API')
-    .setDescription('AI-Powered Clinical Intake Platform API')
-    .setVersion('1.0')
-    .addBearerAuth()
-    .build();
-  const document = SwaggerModule.createDocument(app, swaggerConfig);
-  SwaggerModule.setup('api/docs', app, document);
+  // Swagger documentation - disabled for build
+  // const swaggerConfig = new DocumentBuilder()
+  //   .setTitle('SANJEEVANI CareAI API')
+  //   .setDescription('AI-Powered Clinical Intake Platform API')
+  //   .setVersion('1.0')
+  //   .addBearerAuth()
+  //   .build();
+  // const document = SwaggerModule.createDocument(app, swaggerConfig);
+  // SwaggerModule.setup('api/docs', app, document);
 
   const port = config.get<number>('PORT', 4000);
   await app.listen(port);
