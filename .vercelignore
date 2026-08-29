@@ -1,0 +1,7 @@
+apps/api
+packages/*
+!packages/types
+services
+infra
+*.md
+!apps/web

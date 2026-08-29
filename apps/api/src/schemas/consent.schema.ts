@@ -26,7 +26,7 @@ const ConsentSchema = new Schema<IConsent>({
   withdrawnAt: Date,
 }, { timestamps: true });
 
-ConsentSchema.pre('save', function(next) {
+ConsentSchema.pre('save', function(next: (err?: Error) => void) {
   if (!this.isNew && this.isModified() && !this.isModified('withdrawnAt') && !this.isModified('status')) {
     next(new Error('Consent record is immutable'));
   } else {
